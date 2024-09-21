@@ -1,0 +1,36 @@
+
+.card{
+  border: 1px solid rgb(129, 129, 129); /* thin lined box around element */
+  border-radius: 10px; /* curves the edges of border */
+  box-shadow: 5px 5px 5px rgba(22, 21, 21, 0.273);
+         /* hor. offset, vert. offset, blur radius*/
+         /* adds cool 3d shadow effect*/
+  padding: 20px; /* Adds padding from stuff in element from border*/
+  margin: 10px; /* spapce outside the border */
+  text-align: center; /* puts everythign in the center */
+  max-width: 250px;  /* max width of card */
+  display: inline-block; /* not sure*/
+
+} 
+
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;  /* makes image a circle */
+  margin-bottom: 10px;
+
+}
+
+.card .card-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0; /* 0 margin from element above*/
+  color: rgba(182, 25, 25, 0.882)
+}
+
+
+.card .card-text {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 85%;
+  color: rgb(180, 140, 164)
+}
